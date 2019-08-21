@@ -1,0 +1,23 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "页面e2e测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woshisongali/Cypress-e2e.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woshisongali/Cypress-e2e/issues"
+  },
+  "homepage": "https://github.com/woshisongali/Cypress-e2e#readme",
+  "devDependencies": {
+    "cypress": "^3.4.1"
+  }
+}
