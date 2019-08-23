@@ -2,7 +2,7 @@ function server () {
     cy.server()
     cy.route({
     method: 'GET',
-    url: 'http://mydev.admin.sankuai.com/psgs/**',
+    url: '**/psgs/**',
     status: 200,
     delay: 500,
     onRequest: (xhr) => {
