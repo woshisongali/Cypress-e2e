@@ -32,12 +32,14 @@ function toLogin () {
     cy.get('#form-submit').submit()
     cy.wait(500)
     cy.visit(WEB.curUrl)
-
-    let cookie = cy.getCookies()
-    console.log('=============== cookie')
-    console.log(cookie)
 }
+
+
+Cypress.Commands.add('login', () => {
+    toLogin();
+})
 
 module.exports = {
     toLogin
 }
+
